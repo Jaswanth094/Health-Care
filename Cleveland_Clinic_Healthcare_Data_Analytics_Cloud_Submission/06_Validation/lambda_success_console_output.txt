@@ -1,0 +1,18 @@
+Status: Succeeded
+Test Event Name: DailyReportTest
+Response:
+{
+  "statusCode": 200,
+  "body": {
+    "report_date": "2026-09-23",
+    "total_visits": "12000",
+    "total_revenue": "1.2813762729999977E8",
+    "report_location": "s3://medical-data-engineering-oh/reports/daily_report_2026-09-23.txt"
+  }
+}
+
+Execution log summary:
+- 3 Athena queries started and all reached SUCCEEDED.
+- Report generated and printed to CloudWatch Logs.
+- Report saved to the S3 reports/ prefix.
+- Duration: approximately 7042 ms.

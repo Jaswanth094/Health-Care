@@ -1,0 +1,10 @@
+table_name,row_count
+appointments,12000
+billing,5000
+branches,100
+doctor_other_branches,384
+doctors,200
+lab_reports,7500
+patients,2300
+prescriptions,9000
+surgeries,1500

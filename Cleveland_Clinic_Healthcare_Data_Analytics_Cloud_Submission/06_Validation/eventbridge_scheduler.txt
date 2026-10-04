@@ -1,0 +1,11 @@
+EventBridge Scheduler validation
+================================
+Schedule: medical-data-engineering-daily-report
+Group: default
+Status: Enabled
+Target type: LAMBDA_Invoke
+Target: medical-data-engineering-daily-report
+Schedule: recurring cron
+Configured time: 09:00
+Configured time zone: Asia/Calcutta (UTC+05:30)
+Payload: {}
